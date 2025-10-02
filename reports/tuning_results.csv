@@ -1,0 +1,4 @@
+Model,Best Params,CV R2,Test MSE,Test R2
+RandomForest,"{'model__max_depth': 10, 'model__min_samples_split': 10, 'model__n_estimators': 500}",0.8339924747764826,0.1626341620448982,0.8079476717902455
+XGBoost,"{'model__colsample_bytree': 0.8, 'model__learning_rate': 0.01, 'model__max_depth': 3, 'model__n_estimators': 500, 'model__subsample': 1.0}",0.8414825429649648,0.14775523470890586,0.8255179817436501
+SVR,"{'model__C': 10, 'model__epsilon': 0.1, 'model__kernel': 'rbf'}",0.8366674080787675,0.16380408688997508,0.8065661244726197
